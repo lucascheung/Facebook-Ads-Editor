@@ -21,3 +21,12 @@ Then RUN THE SCRIPT.
 6. It will run and populate on to the excel file.
 7. You should be prompted with a message showing where the file is saved.
 8. Open the excel newly created excel file.
+9. Set your Bench Mark CPM, Frequency Goal & Campaign Period at Column L(Reach Tab)
+10. State the market and targeting slot from your naming conventions at Column L(Reach Tab)
+    From the example above, market will be 1, and targeting will be 2
+11. Input all markets in the table below at Column K(Reach tab).
+12. Input Clients fixed budget in Column N (Reach tab) per market to know the scaled budget to put on platform.
+13. Input all targetings in the Column B (Planning tab), for a more detailed breakdown.
+
+If you are happy with the budgets in Column I (Reach tab), please use the Adset Budget Update Script to update the budget to ads manager.
+

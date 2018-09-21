@@ -5,6 +5,19 @@ import deliveryestimate
 import time
 import os
 
+'''
+Function of the script:
+Pull in the potential audience size for each Facebook Ad Set.
+
+How it works:
+1. Export selected campaigns on ads manager to excel.
+2. Remove Duplicates on an ad set ID level, so each row will be a unique ad set.
+3. Fill in the app ids, app secret and access token. (To authenticate you have access to the account)
+4. Run the script (assume Python 3.6 is installed), drag and drop the exported excel file, press enter.
+5. The file will run and populate on to the excel file.
+6. More instruction will be on the Excel file.
+'''
+
 my_app_id = '<INSERT APP AD>'
 my_app_secret = '<INSERT APP SECRET'
 my_access_token = '<INSERT ACCESS TOKEN>'

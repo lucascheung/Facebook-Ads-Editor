@@ -5,8 +5,6 @@ import deliveryestimate
 import time
 import os
 
-print ('this is testing github')
-
 my_app_id = '<INSERT APP AD>'
 my_app_secret = '<INSERT APP SECRET'
 my_access_token = '<INSERT ACCESS TOKEN>'

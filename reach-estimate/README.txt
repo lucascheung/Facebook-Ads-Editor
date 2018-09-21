@@ -1,11 +1,14 @@
 Function of the script:
 Pull in the potential audience size for each Facebook Ad Set.
+The audience size are then grouped by campaigns (it is divided by market in default)
 
 
 What is required:
-Python 3.6
-modules: facebook_business, openpyxl
+Python 3.6 & install modules: facebook_business, openpyxl
 
+The ad sets on Facebook must be name in this pattern with denominator (Orders can be different):
+Example:
+Market_Targeting_Feature1_Feature2_Feature3
 
 Before Running the script:
 1. Download the reach-estimate folder
@@ -18,4 +21,3 @@ Then RUN THE SCRIPT.
 6. It will run and populate on to the excel file.
 7. You should be prompted with a message showing where the file is saved.
 8. Open the excel newly created excel file.
-

@@ -5,6 +5,8 @@ import deliveryestimate
 import time
 import os
 
+print ('this is testing github')
+
 my_app_id = '<INSERT APP AD>'
 my_app_secret = '<INSERT APP SECRET'
 my_access_token = '<INSERT ACCESS TOKEN>'
@@ -12,7 +14,6 @@ FacebookAdsApi.init(my_app_id, my_app_secret, my_access_token)
 
 filepath = input("Input file path: ")
 filepath = filepath.replace("'","")
-
 
 filename = input("Insert Beat Name: ")
 
